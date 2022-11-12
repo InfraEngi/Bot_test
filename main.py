@@ -13,7 +13,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # properties
 delay_between_commands = 1.00
 
-windowtocapture = 'EVE - Rascu'
+windowtocapture = 'EVE - '
 window_handle = win32gui.FindWindow(None, windowtocapture)
 if not window_handle:
     raise Exception('Window not found: {}'.format(windowtocapture))
